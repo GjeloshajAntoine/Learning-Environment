@@ -1,0 +1,20 @@
+h1,h2,h3{
+    color:#6F997C;
+}
+h4,h5,h6{
+    color:#2ECC5F; 
+}
+body{
+    color:#4A00CC;
+}
+ul{
+    color: #7A2ECC
+}
+ol{
+    color:#E593FF ;
+}
+table,th,td{
+    color:#2ECC5F; 
+    border-color:#7A2ECC;
+    border:1px solid;
+}
