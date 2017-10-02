@@ -17,3 +17,17 @@
   font-weight: bold;
   font-family: arial;
 }
+.gauche{
+  float:left;
+}
+.droite{
+  float:right;
+}
+.description{
+  max-width: 150px;
+  min-width: 150px;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.description p{
+}
