@@ -8,6 +8,7 @@ h4,h5,h6{
 }
 p{
   color:grey;
+  font-family: arial;
 }
 body{
     color:#4A00CC;
@@ -24,4 +25,7 @@ table,th,td{
     color:black;
     border-color:#7A2ECC;
     border: 2px solid #00edff;
+    border: 2px solid #a1b6ff;
+    border-radius: 5px;
+    padding: 9px;
 }
