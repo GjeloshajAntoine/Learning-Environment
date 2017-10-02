@@ -1,11 +1,15 @@
 h1,h2,h3{
     color:#6F997C;
+    text-align: center;
 }
 h4,h5,h6{
-    color:#2ECC5F; 
+    color:#2ECC5F;
+    text-align: center;
 }
 body{
     color:#4A00CC;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 ul{
     color: #7A2ECC
@@ -14,7 +18,7 @@ ol{
     color:#E593FF ;
 }
 table,th,td{
-    color:#2ECC5F; 
+    color:#2ECC5F;
     border-color:#7A2ECC;
     border:1px solid;
 }
