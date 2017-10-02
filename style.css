@@ -1,31 +1,19 @@
-h1,h2,h3{
-    color:#6F997C;
-    text-align: center;
+.main{
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/03/11/28/ripped-2034950_960_720.png");
+  height: 510px;
+  min-height: 50%;
+  background-position: center;
+  margin-top: 20px;
+  background-size: 100%;
 }
-h4,h5,h6{
-    color:#d7ffaa;
-    text-align: center;
+.titre-container{
+  margin-top: 13px;
+  display: inline-block;
+  width: 100%
 }
-p{
-  color:grey;
+.titre{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
   font-family: arial;
-}
-body{
-    color:#4A00CC;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-ul{
-    color: #7A2ECC;
-}
-ol{
-    color:#E593FF ;
-}
-table,th,td{
-    color:black;
-    border-color:#7A2ECC;
-    border: 2px solid #00edff;
-    border: 2px solid #a1b6ff;
-    border-radius: 5px;
-    padding: 9px;
 }
