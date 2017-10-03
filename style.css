@@ -2,10 +2,16 @@
 
 }
 .menu ul{
-
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 .menu li{
-    text-align: center;
+  display: inline-block;
+  margin-right: 43px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: larger;
 }
 .main{
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/74827e36447127.571d22a7c24c4.jpg");
@@ -22,9 +28,10 @@
 }
 .titre{
   text-align: center;
-  font-size: 22px;
+  font-size: 44px;
   font-weight: bold;
   font-family: arial;
+  color:#FFFFFF;
 }
 .gauche{
   float:left;
@@ -37,11 +44,12 @@
 .description{
   max-width: 200px;
   min-width: 150px;
-  margin-top: 10%;
-  background-color: rgba(0, 0, 0, 0.72);
+  margin-top: 4%;
+  background-color:rgba(243, 176, 126, 0.63);
   border-radius: 20px;
-  color: white;
+  color: #00000000;
   padding: 10px;
+  border:1px solid;
 }
 .description p{
   font-size: 21px;
@@ -50,4 +58,22 @@
 .icon{
   text-align: center;
   font-size: xx-large;
+}
+.autres h1 {
+  text-align: center;
+}
+.assoc{
+  display: flex;
+}
+.assoc img{
+  width: 45%;
+}
+.assoc,.img img{
+  float: left;
+}
+.assoc-description{
+
+}
+.assoc-right, .assoc-description {
+  float: right;
 }
