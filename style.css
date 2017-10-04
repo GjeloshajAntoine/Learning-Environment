@@ -50,8 +50,10 @@
   background-color:rgba(243, 176, 126, 0.63);
   border-radius: 20px;
   color: #00000000;
-  padding: 10px;
-  border:1px solid;
+  /* padding: 1px; */
+  padding-left: 8px;
+  padding-right: -5px;
+  /* border: 1px solid; */
 }
 .description p{
   font-size: 21px;
@@ -71,6 +73,32 @@
 .citation a{
   font-size:16px;
 }
+
+.paragraphes{
+  margin-bottom: 10%;
+}
+.paragraphes h1{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.paragraphes-container{
+  display: flex;
+}
+.paragraphe{
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.paragraphe h2{
+  color:#000;
+  text-align: center;
+}
+.paragraphe .texte{
+  font-size: 120%;
+  line-height: 200%;
+}
+
 
 
 .autres h1 {
