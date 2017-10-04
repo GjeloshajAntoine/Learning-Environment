@@ -15,15 +15,15 @@
   font-size: larger;
 }
 .main{
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/74827e36447127.571d22a7c24c4.jpg");
-  height: 510px;
+  background-image: url("https://pixabay.com/get/eb35b00f2af7033ed1534705fb0938c9bd22ffd41cb1164097f6c07cae/railway-2010232_1920.jpg");
+  height: 92vh;
   min-height: 50%;
   background-position: center;
   margin-top: 20px;
   background-size: 100%;
 }
 .titre-container{
-  margin-top: 13px;
+  margin-top: 2vh;
   display: inline-block;
   width: 100%
 }
@@ -46,10 +46,10 @@
   max-width: 412px;
   min-width: 150px;
   min-height: 178px;
-  margin-top: 4%;
-  background-color:rgba(243, 176, 126, 0.63);
+  margin-top: 25vh;
+  background-color:rgba(79, 75, 71, 0.58);
   border-radius: 20px;
-  color: #00000000;
+  color: #FFFFFF;
   /* padding: 1px; */
   padding-left: 8px;
   padding-right: -5px;
@@ -73,6 +73,15 @@
 .citation a{
   font-size:16px;
 }
+.grosse-fleche{
+  font-size: 137px;
+  margin-top: 42vh;
+  text-align: center;
+  color: #FFF;
+  font-family: monospace;
+}
+
+
 
 .paragraphes{
   margin-bottom: 10%;

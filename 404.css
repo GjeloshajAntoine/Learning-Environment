@@ -1,22 +1,28 @@
 body{
-  background-color: blue;
+    background-color: #dadada;
+}
+
+*{
+  text-align: center;
+  color: whitesmoke;
 }
 .titre{
-      text-align: center;
       font-size: 800%;
       font-family: 'Jomhuria', cursive;
 }
 
 .main{
-
+  font-size: 1000%;
 }
 .bottom{
-
+  margin-top: 0%;
 }
 .button{
-
-}
-
-.test{
-  background-color: blue;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 350%;
+  background-color: #275eff;
+  width: 20%;
+  border-radius: 29px;
+  padding: 17px;
+  text-decoration: none;
 }
