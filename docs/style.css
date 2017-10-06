@@ -15,8 +15,8 @@
   font-size: larger;
 }
 .main{
-  background-image: url("https://pixabay.com/get/eb35b00f2af7033ed1534705fb0938c9bd22ffd41cb1164097f6c07cae/railway-2010232_1920.jpg");
-  height: 92vh;
+  background-image: url("railway.jpg");
+  height: 95vh;
   min-height: 50%;
   background-position: center;
   margin-top: 20px;
@@ -75,7 +75,7 @@
 }
 .grosse-fleche{
   font-size: 137px;
-  margin-top: 42vh;
+  margin-top: 54vh;
   text-align: center;
   color: #FFF;
   font-family: monospace;
