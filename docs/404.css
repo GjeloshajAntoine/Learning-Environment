@@ -1,0 +1,33 @@
+body{
+    background-color: #828282;
+}
+
+*{
+  text-align: center;
+  color: whitesmoke;
+}
+.titre{
+      font-size: 800%;
+      font-family: 'Jomhuria', cursive;
+}
+
+.main{
+  font-size: 1000%;
+}
+.bottom{
+  margin-top: 4%;
+}
+.button{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 299%;
+  background-color: #275eff;
+  width: 20%;
+  border-radius: 29px;
+  padding: 17px;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.button:hover{
+  background: radial-gradient(ellipse at center, #0093ff 0%,#275eff 99%);
+}
