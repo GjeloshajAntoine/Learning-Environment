@@ -3,14 +3,14 @@ body{
   font-family: roboto;
 }
 .menu{
-  background-color: rgba(5, 36, 105, 0.95);
+  background-color: rgba(91, 122, 160, 0.61);;
   padding: 1px;
   /* margin-top: -1.7%; */
   border-bottom-right-radius: 26px;
   border-bottom-left-radius: 36px;
   position: sticky;
   top: 0;
-  width: 100%;
+  /*width: 100%;*/
   font-weight: 600;
   /* font-family: fantasy; */
   letter-spacing: 7px;
