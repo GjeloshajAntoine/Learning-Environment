@@ -1,5 +1,16 @@
 .menu{
-
+  background-color: rgba(0, 184, 255, 0.97);
+  padding: 1px;
+  /* margin-top: -1.7%; */
+  border-bottom-right-radius: 26px;
+  border-bottom-left-radius: 36px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-weight: 600;
+  font-family: fantasy;
+  letter-spacing: 7px;
+  color: white;
 }
 .menu ul{
   list-style-type: none;
@@ -72,6 +83,7 @@
 }
 .citation a{
   font-size:16px;
+  color: #00ff6a;
 }
 .grosse-fleche{
   font-size: 137px;
@@ -120,6 +132,7 @@
 .asoc,.img {
   width: 50%;
   display: inline-block;
+  margin-top: 7.5em;
 }
 .assoc-right .img {
   float: left;

@@ -1,5 +1,186 @@
+.menu{
+  background-color: rgba(0, 184, 255, 0.97);
+  padding: 1px;
+  /* margin-top: -1.7%; */
+  border-bottom-right-radius: 26px;
+  border-bottom-left-radius: 36px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-weight: 600;
+  font-family: fantasy;
+  letter-spacing: 7px;
+  color: white;
+}
+.menu ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.menu li{
+  display: inline-block;
+  margin-right: 21px;
+  margin-left: 21px
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+.main{
+  background-image: url("railway.jpg");
+  height: 95vh;
+  min-height: 50%;
+  background-position: center;
+  margin-top: 20px;
+  background-size: 100%;
+}
+.titre-container{
+  margin-top: 2vh;
+  display: inline-block;
+  width: 100%
+}
+.titre{
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: arial;
+  color:#FFFFFF;
+}
+.gauche{
+  float:left;
+  margin-left: 5%;
+}
+.droite{
+  float:right;
+  margin-right:5%
+}
+.description{
+  max-width: 412px;
+  min-width: 150px;
+  min-height: 178px;
+  margin-top: 25vh;
+  background-color:rgba(79, 75, 71, 0.58);
+  border-radius: 20px;
+  color: #FFFFFF;
+  /* padding: 1px; */
+  padding-left: 8px;
+  padding-right: -5px;
+  /* border: 1px solid; */
+}
+.description p{
+  font-size: 21px;
+  font-weight: bold;
+}
+.icon{
+  text-align: center;
+  font-size: xx-large;
+}
+.icon span{
+  font-size:36px;
+  color:#FFFFFF;
+}
+.citation{
+
+}
+.citation a{
+  font-size:16px;
+  color: #00ff6a;
+}
+.grosse-fleche{
+  font-size: 137px;
+  margin-top: 54vh;
+  text-align: center;
+  color: #FFF;
+  font-family: monospace;
+}
+
+
+
+.paragraphes{
+  margin-bottom: 10%;
+}
+.paragraphes h1{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.paragraphes-container{
+  display: flex;
+}
+.paragraphe{
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.paragraphe h2{
+  color:#000;
+  text-align: center;
+}
+.paragraphe .texte{
+  font-size: 120%;
+  line-height: 200%;
+}
+
+
+
+.autres h1 {
+  text-align: center;
+}
+.assoc{
+  margin-top: 2%;
+}
+
+.asoc,.img {
+  width: 50%;
+  display: inline-block;
+  margin-top: 7.5em;
+}
+.assoc-right .img {
+  float: left;
+}
+.assoc-left .img{
+  float: right;
+}
+
+.assoc .img img{
+  width: 96%;
+  margin-left: 1%;
+}
+.assoc-description{
+  display: inline-block;
+  width: 50%;
+}
+.assoc-description h2{
+  text-align: center;
+}
+.assoc-description p{
+  padding: 7%;
+  padding: 7%;
+    /* text-align: left; */
+  font-size: 123%;
+  text-align: center;
+  font-family: sans-serif;
+}
+.assoc-description a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+@keyframes backgroundColorFading {
+  from{
+    background-color: #FFFFFF;
+  }
+  to{
+      background-color: #1d1d1d;;
+  }
+}
 body{
     background-color: #828282;
+    animation-name: backgroundColorFading;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
 }
 
 *{
